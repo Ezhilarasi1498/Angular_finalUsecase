@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" >ABC Retail Bank</a>
+    </div>
+  
+    
+  </nav>
+<div class="container" *ngFor="let account of AccountDetails">
+    <div class="col-xs-9">
+
+        <div class="row">
+            <div class="col-xs-6">
+                UserName
+            </div>
+            <div class="col-xs-6">
+              : {{account.id.userName}}
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-xs-6">
+              AccountNumber
+          </div>
+          <div class="col-xs-6">
+            : {{account.AccountNumber}}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+              AccountType
+          </div>
+          <div class="col-xs-6">
+            : {{account.AccountType }}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+              Balance
+          </div>
+          <div class="col-xs-6">
+            : {{account.Balance}}
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+              LastTransactionDate
+          </div>
+          <div class="col-xs-6">
+            : {{account.LastTransactionDate}}
+          </div>
+        </div>
+        
+</div>

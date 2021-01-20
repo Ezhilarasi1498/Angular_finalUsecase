@@ -1,0 +1,12 @@
+{
+    "accounts":[{
+        "id":"1",
+        "AccountNumber":"100",
+        "AccountType":"savings",
+        "Balance":"10000",
+        "LastTransactionDate":"12/01/2021"
+    
+    }
+
+    ]
+}
