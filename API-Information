@@ -1,0 +1,17 @@
+For inputs, I used json-server.
+
+For userDetails, json-server url is
+http://localhost:3000/users
+
+For Account, json-server url is
+http://localhost:4000/accounts
+
+Before running the application, please start json-server of both json files.
+
+Other access APIs are,
+
+http://localhost:4200/home
+http://localhost:4200/login
+http://localhost:4200/register
+http://localhost:4200/userProfile/:id
+
